@@ -2,9 +2,13 @@
 
 ## Что уже сдано
 
-Задание 04 разобрано в [tasks/04-support-incidents/04-incidents.md](tasks/04-support-incidents/04-incidents.md). Запускать ничего не нужно: это текст по логам. Отчёт кандидата — [REPORT.md](REPORT.md) в корне. Шаблон [REPORT_TEMPLATE.md](REPORT_TEMPLATE.md) оставлен как был.
+Задание 04 разобрано в [tasks/04-support-incidents/04-incidents.md](tasks/04-support-incidents/04-incidents.md). Запускать ничего не нужно: это текст по логам.
 
-Задание на выбор и короткое 06 ещё не сделаны.
+Задание 06 разобрано в [tasks/06-open-improvement/06-improvement.md](tasks/06-open-improvement/06-improvement.md). Там все семь проблем из списка, у каждой своё решение. Запускать ничего не нужно.
+
+Задание на выбор (01, 02, 03 или 05) ещё не сделано.
+
+Отчёт кандидата — [REPORT.md](REPORT.md) в корне. Шаблон [REPORT_TEMPLATE.md](REPORT_TEMPLATE.md) оставлен как был.
 
 Здравствуйте! Спасибо за интерес к вакансии в ООО «МэрТрейд».
 
