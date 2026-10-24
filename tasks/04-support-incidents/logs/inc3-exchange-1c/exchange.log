@@ -1,0 +1,383 @@
+[2026-10-22 07:58:01] exchange.INFO: worker start, batch=20, order=id ASC
+[2026-10-22 07:58:01] exchange.INFO: job #88412 ORD-B2B-7779 -> 1C OK (doc 0000-004511)
+[2026-10-22 07:58:02] exchange.INFO: job #88413 ORD-B2B-7780 -> 1C OK (doc 0000-004512)
+[2026-10-22 07:58:03] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=1 next_retry=+60s
+[2026-10-22 07:58:03] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 07:59:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=2 next_retry=+60s
+[2026-10-22 07:59:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 08:00:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=3 next_retry=+60s
+[2026-10-22 08:00:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 08:01:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=4 next_retry=+60s
+[2026-10-22 08:01:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 08:02:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=5 next_retry=+60s
+[2026-10-22 08:02:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 08:03:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=6 next_retry=+60s
+[2026-10-22 08:03:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 1
+[2026-10-22 08:04:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=7 next_retry=+60s
+[2026-10-22 08:04:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:05:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=8 next_retry=+60s
+[2026-10-22 08:05:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:06:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=9 next_retry=+60s
+[2026-10-22 08:06:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:07:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=10 next_retry=+60s
+[2026-10-22 08:07:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:08:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=11 next_retry=+60s
+[2026-10-22 08:08:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:09:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=12 next_retry=+60s
+[2026-10-22 08:09:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:10:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=13 next_retry=+60s
+[2026-10-22 08:10:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:11:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=14 next_retry=+60s
+[2026-10-22 08:11:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 2
+[2026-10-22 08:12:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=15 next_retry=+60s
+[2026-10-22 08:12:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:13:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=16 next_retry=+60s
+[2026-10-22 08:13:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:14:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=17 next_retry=+60s
+[2026-10-22 08:14:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:15:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=18 next_retry=+60s
+[2026-10-22 08:15:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:16:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=19 next_retry=+60s
+[2026-10-22 08:16:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:17:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=20 next_retry=+60s
+[2026-10-22 08:17:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:18:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=21 next_retry=+60s
+[2026-10-22 08:18:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:19:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=22 next_retry=+60s
+[2026-10-22 08:19:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:20:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=23 next_retry=+60s
+[2026-10-22 08:20:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:21:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=24 next_retry=+60s
+[2026-10-22 08:21:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:22:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=25 next_retry=+60s
+[2026-10-22 08:22:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:23:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=26 next_retry=+60s
+[2026-10-22 08:23:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:24:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=27 next_retry=+60s
+[2026-10-22 08:24:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:25:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=28 next_retry=+60s
+[2026-10-22 08:25:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:26:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=29 next_retry=+60s
+[2026-10-22 08:26:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:27:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=30 next_retry=+60s
+[2026-10-22 08:27:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:28:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=31 next_retry=+60s
+[2026-10-22 08:28:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:29:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=32 next_retry=+60s
+[2026-10-22 08:29:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:30:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=33 next_retry=+60s
+[2026-10-22 08:30:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 3
+[2026-10-22 08:31:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=34 next_retry=+60s
+[2026-10-22 08:31:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:32:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=35 next_retry=+60s
+[2026-10-22 08:32:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:33:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=36 next_retry=+60s
+[2026-10-22 08:33:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:34:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=37 next_retry=+60s
+[2026-10-22 08:34:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:35:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=38 next_retry=+60s
+[2026-10-22 08:35:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:36:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=39 next_retry=+60s
+[2026-10-22 08:36:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:37:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=40 next_retry=+60s
+[2026-10-22 08:37:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:38:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=41 next_retry=+60s
+[2026-10-22 08:38:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:39:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=42 next_retry=+60s
+[2026-10-22 08:39:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:40:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=43 next_retry=+60s
+[2026-10-22 08:40:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:41:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=44 next_retry=+60s
+[2026-10-22 08:41:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:42:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=45 next_retry=+60s
+[2026-10-22 08:42:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:43:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=46 next_retry=+60s
+[2026-10-22 08:43:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:44:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=47 next_retry=+60s
+[2026-10-22 08:44:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:45:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=48 next_retry=+60s
+[2026-10-22 08:45:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:46:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=49 next_retry=+60s
+[2026-10-22 08:46:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:47:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=50 next_retry=+60s
+[2026-10-22 08:47:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:48:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=51 next_retry=+60s
+[2026-10-22 08:48:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:49:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=52 next_retry=+60s
+[2026-10-22 08:49:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:50:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=53 next_retry=+60s
+[2026-10-22 08:50:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:51:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=54 next_retry=+60s
+[2026-10-22 08:51:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:52:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=55 next_retry=+60s
+[2026-10-22 08:52:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:53:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=56 next_retry=+60s
+[2026-10-22 08:53:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:54:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=57 next_retry=+60s
+[2026-10-22 08:54:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:55:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=58 next_retry=+60s
+[2026-10-22 08:55:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:56:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=59 next_retry=+60s
+[2026-10-22 08:56:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:57:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=60 next_retry=+60s
+[2026-10-22 08:57:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:58:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=61 next_retry=+60s
+[2026-10-22 08:58:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 08:59:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=62 next_retry=+60s
+[2026-10-22 08:59:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 09:00:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=63 next_retry=+60s
+[2026-10-22 09:00:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 09:01:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=64 next_retry=+60s
+[2026-10-22 09:01:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 09:02:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=65 next_retry=+60s
+[2026-10-22 09:02:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 4
+[2026-10-22 09:03:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=66 next_retry=+60s
+[2026-10-22 09:03:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:04:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=67 next_retry=+60s
+[2026-10-22 09:04:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:05:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=68 next_retry=+60s
+[2026-10-22 09:05:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:06:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=69 next_retry=+60s
+[2026-10-22 09:06:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:07:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=70 next_retry=+60s
+[2026-10-22 09:07:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:08:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=71 next_retry=+60s
+[2026-10-22 09:08:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:09:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=72 next_retry=+60s
+[2026-10-22 09:09:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:10:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=73 next_retry=+60s
+[2026-10-22 09:10:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:11:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=74 next_retry=+60s
+[2026-10-22 09:11:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:12:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=75 next_retry=+60s
+[2026-10-22 09:12:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:13:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=76 next_retry=+60s
+[2026-10-22 09:13:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:14:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=77 next_retry=+60s
+[2026-10-22 09:14:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:15:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=78 next_retry=+60s
+[2026-10-22 09:15:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:16:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=79 next_retry=+60s
+[2026-10-22 09:16:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:17:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=80 next_retry=+60s
+[2026-10-22 09:17:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:18:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=81 next_retry=+60s
+[2026-10-22 09:18:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:19:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=82 next_retry=+60s
+[2026-10-22 09:19:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:20:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=83 next_retry=+60s
+[2026-10-22 09:20:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:21:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=84 next_retry=+60s
+[2026-10-22 09:21:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:22:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=85 next_retry=+60s
+[2026-10-22 09:22:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:23:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=86 next_retry=+60s
+[2026-10-22 09:23:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:24:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=87 next_retry=+60s
+[2026-10-22 09:24:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:25:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=88 next_retry=+60s
+[2026-10-22 09:25:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:26:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=89 next_retry=+60s
+[2026-10-22 09:26:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:27:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=90 next_retry=+60s
+[2026-10-22 09:27:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:28:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=91 next_retry=+60s
+[2026-10-22 09:28:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:29:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=92 next_retry=+60s
+[2026-10-22 09:29:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:30:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=93 next_retry=+60s
+[2026-10-22 09:30:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:31:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=94 next_retry=+60s
+[2026-10-22 09:31:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:32:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=95 next_retry=+60s
+[2026-10-22 09:32:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:33:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=96 next_retry=+60s
+[2026-10-22 09:33:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:34:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=97 next_retry=+60s
+[2026-10-22 09:34:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:35:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=98 next_retry=+60s
+[2026-10-22 09:35:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:36:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=99 next_retry=+60s
+[2026-10-22 09:36:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:37:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=100 next_retry=+60s
+[2026-10-22 09:37:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:38:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=101 next_retry=+60s
+[2026-10-22 09:38:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:39:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=102 next_retry=+60s
+[2026-10-22 09:39:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:40:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=103 next_retry=+60s
+[2026-10-22 09:40:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 5
+[2026-10-22 09:41:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=104 next_retry=+60s
+[2026-10-22 09:41:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:42:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=105 next_retry=+60s
+[2026-10-22 09:42:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:43:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=106 next_retry=+60s
+[2026-10-22 09:43:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:44:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=107 next_retry=+60s
+[2026-10-22 09:44:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:45:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=108 next_retry=+60s
+[2026-10-22 09:45:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:46:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=109 next_retry=+60s
+[2026-10-22 09:46:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:47:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=110 next_retry=+60s
+[2026-10-22 09:47:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:48:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=111 next_retry=+60s
+[2026-10-22 09:48:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:49:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=112 next_retry=+60s
+[2026-10-22 09:49:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:50:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=113 next_retry=+60s
+[2026-10-22 09:50:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:51:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=114 next_retry=+60s
+[2026-10-22 09:51:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:52:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=115 next_retry=+60s
+[2026-10-22 09:52:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:53:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=116 next_retry=+60s
+[2026-10-22 09:53:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:54:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=117 next_retry=+60s
+[2026-10-22 09:54:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:55:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=118 next_retry=+60s
+[2026-10-22 09:55:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:56:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=119 next_retry=+60s
+[2026-10-22 09:56:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:57:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=120 next_retry=+60s
+[2026-10-22 09:57:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:58:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=121 next_retry=+60s
+[2026-10-22 09:58:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 09:59:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=122 next_retry=+60s
+[2026-10-22 09:59:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:00:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=123 next_retry=+60s
+[2026-10-22 10:00:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:01:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=124 next_retry=+60s
+[2026-10-22 10:01:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:02:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=125 next_retry=+60s
+[2026-10-22 10:02:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:03:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=126 next_retry=+60s
+[2026-10-22 10:03:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:04:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=127 next_retry=+60s
+[2026-10-22 10:04:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:05:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=128 next_retry=+60s
+[2026-10-22 10:05:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:06:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=129 next_retry=+60s
+[2026-10-22 10:06:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:07:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=130 next_retry=+60s
+[2026-10-22 10:07:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:08:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=131 next_retry=+60s
+[2026-10-22 10:08:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:09:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=132 next_retry=+60s
+[2026-10-22 10:09:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:10:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=133 next_retry=+60s
+[2026-10-22 10:10:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:11:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=134 next_retry=+60s
+[2026-10-22 10:11:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:12:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=135 next_retry=+60s
+[2026-10-22 10:12:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:13:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=136 next_retry=+60s
+[2026-10-22 10:13:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:14:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=137 next_retry=+60s
+[2026-10-22 10:14:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:15:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=138 next_retry=+60s
+[2026-10-22 10:15:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 6
+[2026-10-22 10:16:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=139 next_retry=+60s
+[2026-10-22 10:16:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:17:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=140 next_retry=+60s
+[2026-10-22 10:17:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:18:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=141 next_retry=+60s
+[2026-10-22 10:18:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:19:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=142 next_retry=+60s
+[2026-10-22 10:19:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:20:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=143 next_retry=+60s
+[2026-10-22 10:20:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:21:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=144 next_retry=+60s
+[2026-10-22 10:21:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:22:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=145 next_retry=+60s
+[2026-10-22 10:22:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:23:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=146 next_retry=+60s
+[2026-10-22 10:23:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:24:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=147 next_retry=+60s
+[2026-10-22 10:24:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:25:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=148 next_retry=+60s
+[2026-10-22 10:25:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:26:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=149 next_retry=+60s
+[2026-10-22 10:26:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:27:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=150 next_retry=+60s
+[2026-10-22 10:27:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:28:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=151 next_retry=+60s
+[2026-10-22 10:28:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:29:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=152 next_retry=+60s
+[2026-10-22 10:29:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:30:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=153 next_retry=+60s
+[2026-10-22 10:30:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:31:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=154 next_retry=+60s
+[2026-10-22 10:31:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:32:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=155 next_retry=+60s
+[2026-10-22 10:32:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:33:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=156 next_retry=+60s
+[2026-10-22 10:33:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:34:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=157 next_retry=+60s
+[2026-10-22 10:34:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:35:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=158 next_retry=+60s
+[2026-10-22 10:35:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:36:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=159 next_retry=+60s
+[2026-10-22 10:36:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:37:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=160 next_retry=+60s
+[2026-10-22 10:37:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:38:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=161 next_retry=+60s
+[2026-10-22 10:38:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:39:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=162 next_retry=+60s
+[2026-10-22 10:39:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:40:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=163 next_retry=+60s
+[2026-10-22 10:40:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:41:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=164 next_retry=+60s
+[2026-10-22 10:41:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:42:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=165 next_retry=+60s
+[2026-10-22 10:42:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:43:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=166 next_retry=+60s
+[2026-10-22 10:43:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:44:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=167 next_retry=+60s
+[2026-10-22 10:44:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:45:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=168 next_retry=+60s
+[2026-10-22 10:45:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:46:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=169 next_retry=+60s
+[2026-10-22 10:46:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:47:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=170 next_retry=+60s
+[2026-10-22 10:47:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:48:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=171 next_retry=+60s
+[2026-10-22 10:48:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:49:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=172 next_retry=+60s
+[2026-10-22 10:49:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:50:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=173 next_retry=+60s
+[2026-10-22 10:50:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:51:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=174 next_retry=+60s
+[2026-10-22 10:51:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:52:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=175 next_retry=+60s
+[2026-10-22 10:52:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:53:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=176 next_retry=+60s
+[2026-10-22 10:53:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:54:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=177 next_retry=+60s
+[2026-10-22 10:54:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:55:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=178 next_retry=+60s
+[2026-10-22 10:55:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:56:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=179 next_retry=+60s
+[2026-10-22 10:56:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:57:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=180 next_retry=+60s
+[2026-10-22 10:57:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:58:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=181 next_retry=+60s
+[2026-10-22 10:58:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 7
+[2026-10-22 10:59:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=182 next_retry=+60s
+[2026-10-22 10:59:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:00:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=183 next_retry=+60s
+[2026-10-22 11:00:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:01:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=184 next_retry=+60s
+[2026-10-22 11:01:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:02:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=185 next_retry=+60s
+[2026-10-22 11:02:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:03:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=186 next_retry=+60s
+[2026-10-22 11:03:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:04:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=187 next_retry=+60s
+[2026-10-22 11:04:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:05:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=188 next_retry=+60s
+[2026-10-22 11:05:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:06:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=189 next_retry=+60s
+[2026-10-22 11:06:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8
+[2026-10-22 11:07:01] exchange.ERROR: job #88414 ORD-B2B-7781 -> 1C HTTP 422: {"error":"Контрагент не найден","unp":"190000000","client":"K-117"} attempt=190 next_retry=+60s
+[2026-10-22 11:07:01] exchange.INFO: worker stopped batch on error; pending jobs in queue: 8

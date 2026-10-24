@@ -1,0 +1,11 @@
+[2026-10-20 21:40:02] deploy started by admin (branch: main)
+[2026-10-20 21:40:03] $ php artisan down
+[2026-10-20 21:40:05] $ git pull origin main
+[2026-10-20 21:40:09]   Updating 3f1c2a0..9be41d7  (2 files changed)
+[2026-10-20 21:40:10] $ composer install --no-dev --optimize-autoloader
+[2026-10-20 21:40:48]   Nothing to install, update or remove
+[2026-10-20 21:41:02] $ cp .env.new .env      # новые параметры БД
+[2026-10-20 21:41:03] $ php artisan migrate --force
+[2026-10-20 21:41:04]   INFO  Nothing to migrate.
+[2026-10-20 21:41:05] $ php artisan up
+[2026-10-20 21:41:05] deploy finished OK

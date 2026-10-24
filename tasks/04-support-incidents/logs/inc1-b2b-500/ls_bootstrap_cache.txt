@@ -1,0 +1,7 @@
+$ ls -la bootstrap/cache/
+-rw-r--r-- 1 web web   1043 Oct 02 11:20 packages.php
+-rw-r--r-- 1 web web  21877 Oct 02 11:20 services.php
+-rw-r--r-- 1 web web  48211 Oct 02 11:20 config.php
+
+$ grep -n "'host'" bootstrap/cache/config.php | head -3
+212:        'host' => 'db-old.example.test',

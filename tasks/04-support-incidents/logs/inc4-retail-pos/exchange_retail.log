@@ -1,0 +1,6 @@
+[2026-10-20 21:05:21] retail.INFO: shop=2 shift=1187 receipts=161 -> 1C document ОРП-02-1187 created (date 20.10.2026)
+[2026-10-21 21:00:02] retail.INFO: shop=1 shift=2203 receipts=212 -> 1C document ОРП-01-2203 created (date 21.10.2026)
+[2026-10-21 21:03:15] retail.INFO: shop=2 shift=1188 receipts=143 received
+[2026-10-21 21:03:15] retail.WARNING: shop=2 shift=1188: 143 receipts skipped: document date 01.01.2026 is before 1C closed-period boundary 01.10.2026
+[2026-10-21 21:03:15] retail.INFO: shop=2 shift=1188 done: created=0 skipped=143 errors=0
+[2026-10-21 21:10:44] retail.INFO: shop=3 shift=0954 receipts=98 -> 1C document ОРП-03-0954 created (date 21.10.2026)

@@ -1,0 +1,9 @@
+# Фрагмент .env на сервере (пароли скрыты)
+APP_ENV=production
+APP_DEBUG=false
+DB_CONNECTION=mysql
+DB_HOST=db-new.example.test
+DB_PORT=3306
+DB_DATABASE=b2b
+DB_USERNAME=b2b_app
+DB_PASSWORD=********

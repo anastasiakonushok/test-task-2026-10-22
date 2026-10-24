@@ -1,0 +1,5 @@
+[2026-10-20 21:41:07] production.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `sessions` where `id` = ? limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, Host: db-old.example.test, SQL: select * from `sessions` where `id` = ? limit 1) at vendor/laravel/framework/src/Illuminate/Database/Connection.php:825)"}
+[2026-10-21 08:03:41] production.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, Host: db-old.example.test, SQL: select * from `users` where `id` = ? limit 1)
+[2026-10-21 08:03:55] production.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, Host: db-old.example.test, SQL: select * from `sessions` where `id` = ? limit 1)
+[2026-10-21 08:15:12] production.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, Host: db-old.example.test, SQL: select * from `price_types`)
+[2026-10-21 09:47:30] production.ERROR: SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, Host: db-old.example.test, SQL: select * from `sessions` where `id` = ? limit 1)

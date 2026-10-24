@@ -1,0 +1,4 @@
+# crontab пользователя web
+*/15 * * * * wget -q -O /dev/null "https://shop.example.test/cron/sync-prices?key=XXXX"
+*/15 * * * * wget -q -O /dev/null "https://shop.example.test/cron/sync-stock?key=XXXX"
+0 9 * * *    wget -q -O /dev/null "https://shop.example.test/cron/rebuild-catalog?key=XXXX"

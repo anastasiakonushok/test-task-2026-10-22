@@ -1,0 +1,6 @@
+2026-10-20 21:05:12 POS-02 shift#1187 closed, receipts=161, sum=4 812,30 BYN
+2026-10-20 21:05:20 POS-02 upload shift#1187 -> exchange: 200 OK (161 receipts)
+2026-01-01 00:00:07 POS-02 boot: RTC battery low, system time not synchronized (ntp: no server configured)
+2026-01-01 00:02:31 POS-02 shift#1188 opened
+2026-01-01 11:58:44 POS-02 shift#1188 closed, receipts=143, sum=4 155,90 BYN
+2026-01-01 11:58:51 POS-02 upload shift#1188 -> exchange: 200 OK (143 receipts)

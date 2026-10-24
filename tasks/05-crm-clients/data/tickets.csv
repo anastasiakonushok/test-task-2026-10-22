@@ -1,0 +1,31 @@
+ticket_id;client_id;channel;topic;status;created_at
+TK-3000;C-1014;email;Срок доставки;waiting_client;2026-10-01 09:00
+TK-3001;C-1017;email;Ошибка в накладной;resolved;2026-10-02 10:13
+TK-3002;C-1022;email;Ошибка в накладной;new;2026-10-03 11:26
+TK-3003;C-1024;email;Нет в наличии;closed;2026-10-04 12:39
+TK-3004;C-1001;messenger;Вопрос по цене;in_progress;2026-10-05 13:52
+TK-3005;C-1003;phone;Ошибка в накладной;new;2026-10-06 14:05
+TK-3006;C-1009;email;Ошибка в накладной;in_progress;2026-10-07 15:18
+TK-3007;C-1019;email;Ошибка в накладной;in_progress;2026-10-08 16:31
+TK-3008;C-1020;site_form;Возврат товара;in_progress;2026-10-09 09:44
+TK-3009;C-1005;email;Вопрос по цене;in_progress;2026-10-10 10:57
+TK-3010;C-1013;site_form;Не пришёл счёт;waiting_client;2026-10-11 11:10
+TK-3011;C-1014;email;Вопрос по цене;waiting_client;2026-10-12 12:23
+TK-3012;C-1003;site_form;Возврат товара;closed;2026-10-13 13:36
+TK-3013;C-1019;phone;Нет в наличии;waiting_client;2026-10-14 14:49
+TK-3014;C-1003;site_form;Возврат товара;waiting_client;2026-10-15 15:02
+TK-3015;C-1016;site_form;Вопрос по цене;resolved;2026-10-16 16:15
+TK-3016;C-1016;email;Не пришёл счёт;waiting_client;2026-10-17 09:28
+TK-3017;C-1001;site_form;Ошибка в накладной;resolved;2026-10-18 10:41
+TK-3018;C-1001;messenger;Возврат товара;resolved;2026-10-19 11:54
+TK-3019;C-1019;phone;Срок доставки;new;2026-10-20 12:07
+TK-3020;C-1023;email;Нет в наличии;in_progress;2026-10-21 13:20
+TK-3021;C-1004;email;Ошибка в накладной;resolved;2026-10-01 14:33
+TK-3022;C-1012;site_form;Нет в наличии;waiting_client;2026-10-02 15:46
+TK-3023;C-1025;messenger;Не пришёл счёт;closed;2026-10-03 16:59
+TK-3024;C-1024;site_form;Ошибка в накладной;waiting_client;2026-10-04 09:12
+TK-3025;C-1002;messenger;Не пришёл счёт;in_progress;2026-10-05 10:25
+TK-3026;C-1011;site_form;Вопрос по цене;waiting_client;2026-10-06 11:38
+TK-3027;C-1009;phone;Возврат товара;waiting_client;2026-10-07 12:51
+TK-3028;C-1010;email;Ошибка в накладной;new;2026-10-08 13:04
+TK-3029;C-1021;email;Акт сверки;waiting_client;2026-10-09 14:17
