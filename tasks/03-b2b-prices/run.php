@@ -42,6 +42,11 @@ $rules    = json_decode((string) file_get_contents(__DIR__ . '/data/discount_rul
 $resolver = new PriceResolver($prices, $clients, $products, $rules, new FileCache(__DIR__ . '/var/cache.json', $now), $now);
 
 printf("Клиент %s (%s), товар %s x%d\n", $clientId, $clients[$clientId]['price_type'], $sku, $qty);
-printf("  базовая цена: %.2f\n", $resolver->basePrice($clientId, $sku));
-printf("  скидка:       %.2f%%\n", $resolver->discountPercent($clientId, $sku, $qty));
-printf("  цена на сайте: %.2f\n", $resolver->price($clientId, $sku, $qty));
+try {
+    printf("  базовая цена: %.2f\n", $resolver->basePrice($clientId, $sku));
+    printf("  скидка:       %.2f%%\n", $resolver->discountPercent($clientId, $sku, $qty));
+    printf("  цена на сайте: %.2f\n", $resolver->price($clientId, $sku, $qty));
+} catch (RuntimeException $e) {
+    fwrite(STDERR, $e->getMessage() . "\n");
+    exit(1);
+}

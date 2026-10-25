@@ -6,7 +6,16 @@
 
 Задание 06 разобрано в [tasks/06-open-improvement/06-improvement.md](tasks/06-open-improvement/06-improvement.md). Там все семь проблем из списка, у каждой своё решение. Запускать ничего не нужно.
 
-Задание на выбор (01, 02, 03 или 05) ещё не сделано.
+Задание 03 разобрано в [tasks/03-b2b-prices/03-prices.md](tasks/03-b2b-prices/03-prices.md). Расчёт исправлен в `tasks/03-b2b-prices/src/PriceResolver.php`.
+
+Запуск из папки `tasks/03-b2b-prices`, нужен PHP 8.1 или новее, Docker не нужен:
+
+```text
+php check.php
+php run.php K-001 B-101
+```
+
+`check.php` проверяет сценарии и не трогает `var/cache.json`. `run.php` дописывает туда цену. Если в выгрузке нет цены нужного типа, розницу не подставляем: скрипт сообщает, что цены нет. Цифру в файл цен не дописывала.
 
 Отчёт кандидата — [REPORT.md](REPORT.md) в корне. Шаблон [REPORT_TEMPLATE.md](REPORT_TEMPLATE.md) оставлен как был.
 

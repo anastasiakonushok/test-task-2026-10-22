@@ -2,10 +2,21 @@
 /**
  * Учебный код для тестового задания. Не относится к реальным системам.
  * Расчёт цены товара для клиента B2B-сайта: тип цен клиента -> базовая цена -> скидка -> кеш.
+ *
+ * Запуск из папки tasks/03-b2b-prices:
+ *   php run.php K-001 B-101
+ *   php run.php K-002 B-106 12
+ *   php check.php
+ * «Сейчас» задано в run.php: 22.10.2026 12:00, Минск.
+ * run.php дописывает цену в var/cache.json. check.php пишет во временный файл и исходный кеш не трогает.
  */
 
 declare(strict_types=1);
 
+/**
+ * Кеш готовой цены в json-файле.
+ * Живую запись (expires_at ещё не наступил) отдаёт как есть и заново не считает.
+ */
 final class FileCache
 {
     public function __construct(private string $file, private DateTimeImmutable $now) {}
@@ -47,42 +58,76 @@ final class PriceResolver
         private DateTimeImmutable $now,
     ) {}
 
+    /**
+     * Базовая цена — только тип цен этого клиента.
+     * Если строки нет в выгрузке 1С, розницу не подставляем: иначе дилер видит чужую цену.
+     */
     public function basePrice(string $clientId, string $sku): float
     {
         $type = $this->clients[$clientId]['price_type'];
+        if (!isset($this->prices[$sku][$type])) {
+            throw new RuntimeException("Нет цены {$type} для товара {$sku}. Розничную вместо неё не подставляем.");
+        }
 
-        return $this->prices[$sku][$type] ?? $this->prices[$sku]['RETAIL'];
+        return $this->prices[$sku][$type];
     }
 
+    /**
+     * Одна скидка: максимальная из личной и тех правил, которые подходят по дате, количеству и категории.
+     * Проценты не складываются.
+     */
     public function discountPercent(string $clientId, string $sku, int $qty): float
     {
-        $percent = (float) $this->clients[$clientId]['personal_discount'];
+        $candidates = [(float) $this->clients[$clientId]['personal_discount']];
 
         foreach ($this->rules as $rule) {
             if (!$this->isActive($rule)) {
                 continue;
             }
             if ($rule['type'] === 'volume' && $qty >= $rule['min_qty']) {
-                $percent += $rule['percent'];
+                $candidates[] = (float) $rule['percent'];
             }
             if ($rule['type'] === 'promo' && $rule['category'] === $this->products[$sku]['category']) {
-                $percent += $rule['percent'];
+                $candidates[] = (float) $rule['percent'];
             }
         }
 
-        return $percent;
+        return max($candidates);
     }
 
+    /**
+     * Правило действует от valid_from до valid_to, последний день входит.
+     * Даты разбираются как календарные, а не сравниваются текстом d.m.Y.
+     */
     private function isActive(array $rule): bool
     {
-        $today = $this->now->format('d.m.Y');
+        $today = $this->now->setTime(0, 0);
+        $from = $this->parseDate($rule['valid_from']);
+        $to = $this->parseDate($rule['valid_to']);
 
-        return $today >= $rule['valid_from'] && $today <= $rule['valid_to'];
+        return $today >= $from && $today <= $to;
     }
 
+    private function parseDate(string $value): DateTimeImmutable
+    {
+        $date = DateTimeImmutable::createFromFormat('!d.m.Y', $value, $this->now->getTimezone());
+        if ($date === false) {
+            throw new RuntimeException("Не разобрать дату правила: {$value}");
+        }
+
+        return $date;
+    }
+
+    /**
+     * Цена на сайте: базовая * (100 - скидка) / 100, до копеек.
+     * В ключе кеша есть тип цены: после перевода клиента на другой тип старая сумма не отдаётся.
+     * Запись живёт сутки.
+     */
     public function price(string $clientId, string $sku, int $qty = 1): float
     {
-        return $this->cache->remember("price:{$clientId}:{$sku}:{$qty}", 86400, function () use ($clientId, $sku, $qty): float {
+        $type = $this->clients[$clientId]['price_type'];
+
+        return $this->cache->remember("price:{$clientId}:{$type}:{$sku}:{$qty}", 86400, function () use ($clientId, $sku, $qty): float {
             $base = $this->basePrice($clientId, $sku);
             $discount = $this->discountPercent($clientId, $sku, $qty);
 
