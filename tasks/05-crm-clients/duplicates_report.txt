@@ -1,0 +1,5 @@
+Актуальный отчёт формирует скрипт find_duplicates.php:
+
+  php find_duplicates.php
+
+Результат: report/duplicates-report.txt
