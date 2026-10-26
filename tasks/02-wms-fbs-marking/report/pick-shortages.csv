@@ -1,0 +1,2 @@
+task_id;ship_by;sku;name;need;taken;missing;reason
+T-5008;2026-10-24T12:00:00+03:00;WH-2008;"Вода питьевая 0,5 л";1;0;1;"не хватает остатка"
