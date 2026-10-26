@@ -181,6 +181,20 @@ showAppeal($resolver, 5, 'K-006', 'B-107', 1, $clients, $products, $prices,
     $taskResolver->price('K-006', 'B-107', 1),
 );
 
+echo "Сценарий: нет цены нужного типа\n";
+if (isset($prices['B-105']['RETAIL']) && !isset($prices['B-105']['DEALER'])) {
+    try {
+        $taskResolver->price('K-003', 'B-105', 1);
+        $failed++;
+        fwrite(STDERR, "FAIL нет цены DEALER для B-105: вернулась цена другого типа\n");
+    } catch (RuntimeException) {
+        echo "OK   K-003 B-105: цены DEALER нет, розница не подставлена\n";
+    }
+} else {
+    $failed++;
+    fwrite(STDERR, "FAIL нет цены DEALER: учебные данные изменились, сценарий не проверить\n");
+}
+
 echo "Дополнительно (даты акций и объём, на дату из задания 22.10.2026)\n";
 expect('от 10 штук, K-001 B-101 скидка 3', $taskResolver->discountPercent('K-001', 'B-101', 10), 3);
 expect('9 штук, объёмная скидка не включается', $taskResolver->discountPercent('K-001', 'B-101', 9), 0);
