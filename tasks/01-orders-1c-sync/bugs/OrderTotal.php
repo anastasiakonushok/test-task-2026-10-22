@@ -5,8 +5,12 @@
  * Расчёт итогов заказа: сумма строк, скидка в процентах, выделение НДС.
  * Цены в заказе указаны С УЧЁТОМ НДС 20 %.
  *
- * Запуск самопроверки: php OrderTotal.php
- * В файле 3 ошибки. Найдите, исправьте и кратко объясните каждую.
+ * Запуск из папки bugs: php OrderTotal.php
+ *
+ * Исправлены три ошибки:
+ * 1. subtotal — цену нельзя приводить к (int), иначе теряются копейки.
+ * 2. vatIncluded — при цене «с НДС» доля налога это rate/(100+rate), не rate/100.
+ * 3. calculate — НДС считаем от суммы после скидки (total), не от subtotal.
  */
 
 declare(strict_types=1);
@@ -16,13 +20,16 @@ final class OrderTotal
     public const VAT_RATE = 20; // ставка НДС, %
 
     /**
+     * Сумма строк заказа: цена за штуку × количество по каждой позиции.
+     *
      * @param array<int, array{sku: string, qty: int, price: float}> $items
      */
     public static function subtotal(array $items): float
     {
         $sum = 0.0;
         foreach ($items as $item) {
-            $sum += (int) $item['price'] * $item['qty'];
+            // Цена с копейками (3.20, 18.50). (int) обрезало бы до 3 и 18.
+            $sum += $item['price'] * $item['qty'];
         }
 
         return round($sum, 2);
@@ -42,11 +49,14 @@ final class OrderTotal
     }
 
     /**
-     * Сумма НДС, которая уже содержится в цене (цена включает НДС).
+     * Сколько рублей НДС уже «сидит» внутри суммы, если цена указана с НДС.
+     *
+     * Пример: 120 BYN с НДС 20 % → налог 20, а не 120×0,2=24.
+     * Формула: сумма × ставка / (100 + ставка).
      */
-    public static function vatIncluded(float $total): float
+    public static function vatIncluded(float $totalWithVat): float
     {
-        return round($total * self::VAT_RATE / 100, 2);
+        return round($totalWithVat * self::VAT_RATE / (100 + self::VAT_RATE), 2);
     }
 
     /**
@@ -61,7 +71,8 @@ final class OrderTotal
         return [
             'subtotal' => $subtotal,
             'total'    => $total,
-            'vat'      => self::vatIncluded($subtotal),
+            // НДС от того, что платит покупатель после скидки, не от суммы до скидки.
+            'vat'      => self::vatIncluded($total),
         ];
     }
 }
