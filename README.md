@@ -4,7 +4,12 @@
 
 Задание 04 разобрано в [tasks/04-support-incidents/04-incidents.md](tasks/04-support-incidents/04-incidents.md). Запускать ничего не нужно: это текст по логам.
 
-Задание 06 разобрано в [tasks/06-open-improvement/06-improvement.md](tasks/06-open-improvement/06-improvement.md). Там все семь проблем из списка, у каждой своё решение. Запускать ничего не нужно.
+Задание 06 разобрано в [tasks/06-open-improvement/06-improvement.md](tasks/06-open-improvement/06-improvement.md). Там все семь проблем из списка, у каждой своё решение. Для идеи № 2 есть учебный монитор очереди: правила в [tasks/06-open-improvement/prototype/monitoring-rules.md](tasks/06-open-improvement/prototype/monitoring-rules.md), скрипт `tasks/06-open-improvement/prototype/monitor.php`. Он читает вымышленный JSON и в 1С не ходит. Запуск и проверка — из папки `tasks/06-open-improvement/prototype`:
+
+```text
+php tests/test-monitor.php
+php monitor.php --orders=data/incident.json --now=2026-10-22T12:00:00+03:00 --state=var/incident.json
+```
 
 Задание 03 разобрано в [tasks/03-b2b-prices/03-prices.md](tasks/03-b2b-prices/03-prices.md). Расчёт исправлен в `tasks/03-b2b-prices/src/PriceResolver.php`.
 
@@ -16,6 +21,14 @@ php run.php K-001 B-101
 ```
 
 `check.php` проверяет сценарии и не трогает `var/cache.json`. `run.php` дописывает туда цену. Если в выгрузке нет цены нужного типа, розницу не подставляем: скрипт сообщает, что цены нет. Цифру в файл цен не дописывала.
+
+### Почему выбрала задание 03
+
+Я выбрала задание 03, потому что у меня уже есть опыт разработки и поддержки интернет-магазинов, в том числе на WordPress и WooCommerce. Ранее я работала с каталогами товаров, ценами, скидками и логикой их отображения на сайте.
+
+Поэтому эта задача была мне близка и интересна. Хотелось не просто найти ошибки в коде, но и разобраться, почему у клиентов возникают расхождения в ценах, как на это влияют данные из 1С, правила скидок и кеширование.
+
+Кроме того, мне было интересно глубже разобраться в особенностях работы B2B-систем.
 
 Отчёт кандидата — [REPORT.md](REPORT.md) в корне. Шаблон [REPORT_TEMPLATE.md](REPORT_TEMPLATE.md) оставлен как был.
 

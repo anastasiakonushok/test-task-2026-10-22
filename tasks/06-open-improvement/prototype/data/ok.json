@@ -1,0 +1,18 @@
+{
+  "orders": [
+    {
+      "id": "B2B-9001",
+      "status": "sent",
+      "queued_at": "2026-10-22T11:50:00+03:00",
+      "attempts": 1,
+      "error": ""
+    },
+    {
+      "id": "B2B-9002",
+      "status": "sent",
+      "queued_at": "2026-10-22T11:58:00+03:00",
+      "attempts": 1,
+      "error": ""
+    }
+  ]
+}

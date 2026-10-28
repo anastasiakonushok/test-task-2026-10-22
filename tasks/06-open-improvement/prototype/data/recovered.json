@@ -1,0 +1,46 @@
+{
+  "orders": [
+    {
+      "id": "B2B-9101",
+      "status": "sent",
+      "queued_at": "2026-10-22T11:50:00+03:00",
+      "attempts": 1,
+      "error": ""
+    },
+    {
+      "id": "B2B-9102",
+      "status": "pending",
+      "queued_at": "2026-10-22T11:55:00+03:00",
+      "attempts": 0,
+      "error": ""
+    },
+    {
+      "id": "B2B-9103",
+      "status": "pending",
+      "queued_at": "2026-10-22T11:35:00+03:00",
+      "attempts": 1,
+      "error": ""
+    },
+    {
+      "id": "B2B-9104",
+      "status": "sent",
+      "queued_at": "2026-10-22T11:56:00+03:00",
+      "attempts": 4,
+      "error": ""
+    },
+    {
+      "id": "B2B-9105",
+      "status": "error",
+      "queued_at": "2026-10-22T11:59:00+03:00",
+      "attempts": 2,
+      "error": "Ошибка соединения"
+    },
+    {
+      "id": "B2B-9106",
+      "status": "pending",
+      "queued_at": "2026-10-22T11:50:00+03:00",
+      "attempts": 6,
+      "error": ""
+    }
+  ]
+}
